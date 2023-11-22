@@ -35,9 +35,7 @@
             technological advancements and continuously enhancing skills to
             drive impactful results.
           </p>
-          <a class="download" href="cv.pdf" download="Resume.pdf">
-            Download Resume
-          </a>
+          <button class="download"> Download Resume </button>
         </div>
       </div>
     </div>
@@ -206,6 +204,13 @@
   </div>
   <script>
     feather.replace();
+  </script>
+  <!--Custom JS-->
+  <script>
+    var btn = document.querySelector('button');
+    btn.onclick = () => {
+      window.print();
+    }
   </script>
 </body>
 </html>
